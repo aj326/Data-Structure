@@ -1,0 +1,647 @@
+Testing method:
+
+	public static String prettyPrint(char[] input)
+	{
+		String print="";
+		for (char x:input)
+			print+=x;
+		return print;
+	}
+
+//    	Tests:
+    	
+
+    	
+    	Colors test1 = new Colors();
+    	char[] dummySecret1 = new char[4];
+
+    	char[]  input1 =  new char[]{'a','b','c','d'};
+    	    	
+    	char[]  input2 =  new char[]{'b','g','y','b'};
+
+
+    	char[]  input3 =  new char[]{'a','b'};
+
+
+    	char[]  input4 =  new char[2];
+
+
+    	
+    	
+    	System.out.println("Testing Secret Code: "+prettyPrint(test1.getCode()));
+    	
+    	System.out.println("Inputs: "+prettyPrint(input1)+" , "+prettyPrint(input2)+" , "+prettyPrint(input3)+" , "+prettyPrint(input4));
+    	System.out.println("Testing goodInputValues: "+test1.goodInputValues(input1));
+    	System.out.println("Testing goodInputValues: "+test1.goodInputValues(input2));
+    	System.out.println("Testing goodInputValues: "+test1.goodInputValues(input3));
+    	System.out.println("Testing goodInputValues: "+test1.goodInputValues(input4));
+
+    	
+    	System.out.println("Testing goodNumberOfInputs: "+test1.goodNumberOfInputs(input1));
+    	System.out.println("Testing goodNumberOfInputs: "+test1.goodNumberOfInputs(input2));
+    	System.out.println("Testing goodNumberOfInputs: "+test1.goodNumberOfInputs(input3));
+    	System.out.println("Testing goodNumberOfInputs: "+test1.goodNumberOfInputs(input4));
+    	System.out.println();
+    	
+//    	Tests for Peg class (white/black count) 
+    	dummySecret1 = new char[] {'a','a','a','b'};
+    	input1= new char[] {'a','a','a','a'};
+    	Pegs p = new Pegs(dummySecret1);
+    	System.out.println("testing secret code: "+ prettyPrint(dummySecret1)+"\n\t with input: "+prettyPrint(input1));
+    	p.countPegs(input1);
+    	System.out.println("Testing numOfWhite: "+p.numOfWhitePegs());
+    	System.out.println("Testing numOfBlack: "+p.numOfBlackPegs());
+    	System.out.println(p.getPegs());
+    	System.out.println();
+
+
+    	dummySecret1 = new char[] {'b','b','a','b'};
+    	input1= new char[] {'a','a','b','a'};
+    	p = new Pegs(dummySecret1);
+    	System.out.println("testing secret code: "+ prettyPrint(dummySecret1)+"\n\t with input: "+prettyPrint(input1));
+    	p.countPegs(input1);
+    	System.out.println("Testing numOfWhite: "+p.numOfWhitePegs());
+    	System.out.println("Testing numOfBlack: "+p.numOfBlackPegs());
+    	System.out.println(p.getPegs());
+    	System.out.println();
+
+
+    	dummySecret1 = new char[] {'b','b','b','b'};
+    	input1= new char[] {'a','a','b','a'};
+    	p = new Pegs(dummySecret1);
+    	System.out.println("testing secret code: "+ prettyPrint(dummySecret1)+"\n\t with input: "+prettyPrint(input1));
+    	p.countPegs(input1);
+    	System.out.println("Testing numOfWhite: "+p.numOfWhitePegs());
+    	System.out.println("Testing numOfBlack: "+p.numOfBlackPegs());
+     	System.out.println(p.getPegs());
+    	System.out.println();
+    	
+    	
+    	dummySecret1 = new char[] {'x','y','z','d'};
+    	input1= new char[] {'a','a','b','a'};
+    	p = new Pegs(dummySecret1);
+    	System.out.println("testing secret code: "+ prettyPrint(dummySecret1)+"\n\t with input: "+prettyPrint(input1));
+    	p.countPegs(input1);
+    	System.out.println("Testing numOfWhite: "+p.numOfWhitePegs());
+    	System.out.println("Testing numOfBlack: "+p.numOfBlackPegs());
+     	System.out.println(p.getPegs());
+    	System.out.println();
+    	
+    	
+    	dummySecret1 = new char[] {'a','a','b','b'};
+    	input1= new char[] {'b','b','a','a'};
+    	p = new Pegs(dummySecret1);
+    	System.out.println("testing secret code: "+ prettyPrint(dummySecret1)+"\n\t with input: "+prettyPrint(input1));
+    	p.countPegs(input1);
+    	System.out.println("Testing numOfWhite: "+p.numOfWhitePegs());
+    	System.out.println("Testing numOfBlack: "+p.numOfBlackPegs());
+     	System.out.println(p.getPegs());
+    	System.out.println();
+    	
+    	
+    	dummySecret1 = new char[] {'a','a','a','b'};
+    	input1= new char[] {'a','a','b','a'};
+    	p = new Pegs(dummySecret1);
+    	System.out.println("testing secret code: "+ prettyPrint(dummySecret1)+"\n\t with input: "+prettyPrint(input1));
+    	p.countPegs(input1);
+    	System.out.println("Testing numOfWhite: "+p.numOfWhitePegs());
+    	System.out.println("Testing numOfBlack: "+p.numOfBlackPegs());
+    	System.out.println(p.getPegs());
+    	System.out.println();
+    	
+    	    	
+    	dummySecret1 = new char[] {'d','c','b','a'};
+    	input1= new char[] {'a','b','c','d'};
+    	p = new Pegs(dummySecret1);
+    	System.out.println("testing secret code: "+ prettyPrint(dummySecret1)+"\n\t with input: "+prettyPrint(input1));
+    	p.countPegs(input1);
+    	System.out.println("Testing numOfWhite: "+p.numOfWhitePegs());
+    	System.out.println("Testing numOfBlack: "+p.numOfBlackPegs());
+    	System.out.println(p.getPegs());
+    	System.out.println();
+    	
+    	
+    	dummySecret1 = new char[] {'a','d','c','h'};
+    	input1= new char[] {'a','c','h','d'};
+    	p = new Pegs(dummySecret1);
+    	System.out.println("testing secret code: "+ prettyPrint(dummySecret1)+"\n\t with input: "+prettyPrint(input1));
+    	p.countPegs(input1);
+    	System.out.println("Testing numOfWhite: "+p.numOfWhitePegs());
+    	System.out.println("Testing numOfBlack: "+p.numOfBlackPegs());
+    	System.out.println(p.getPegs());
+    	System.out.println();
+    	
+    	
+    	
+//    	Tests for Input class
+    	Input i = new Input();
+    	input1 = i.getInput();
+    	System.out.println(prettyPrint(input1));
+
+I tested the GUI through playing the game and a bunch of commented print statements.
+
+ÑÑOUTPUTÑÑ
+Welcome to Mastermind.
+
+
+This is a text version of the classic board game Mastermind.
+The computer will think of a secret code.
+The code consists of 4 colored pegs.
+The pegs may be one of six colors: blue, green , orange, purple, red, or yellow.
+A color may appear more than once in the code.
+
+You try to guess what colored pegs are in the code and what order they are in
+After making a guess the result will be displayed.
+A result consists of a black peg for each peg you have exactly correct (color and position) in your guess.
+For each peg in the guess that is the correct color, but is out of position, you get a white peg.
+
+Only the first letter of the color is displayed. b for blue, r for red, and so forth.
+When entering guesses you only need to enter the first character of the color.
+
+
+You have 12 to guess the answer or you lose the game.
+
+Secret Code is: oybo
+
+
+What is your guess: rrrr
+
+oybo Secret Code
+rrrr Result No pegs
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 11 left.
+What is your guess: yryr
+
+oybo Secret Code
+rrrr Result No pegs
+yryr Result White 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 10 left.
+What is your guess: rybb
+
+oybo Secret Code
+rrrr Result No pegs
+yryr Result White 
+rybb Result Black Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 9 left.
+What is your guess: oybo
+
+oybo Secret Code
+rrrr Result No pegs
+yryr Result White 
+rybb Result Black Black 
+oybo Result Black Black Black Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+Great job, you won!
+It took you 4 to guess the code.
+Again? y to go, n to exit: m
+Goodbye!
+Welcome to Mastermind.
+
+
+This is a text version of the classic board game Mastermind.
+The computer will think of a secret code.
+The code consists of 4 colored pegs.
+The pegs may be one of six colors: blue, green , orange, purple, red, or yellow.
+A color may appear more than once in the code.
+
+You try to guess what colored pegs are in the code and what order they are in
+After making a guess the result will be displayed.
+A result consists of a black peg for each peg you have exactly correct (color and position) in your guess.
+For each peg in the guess that is the correct color, but is out of position, you get a white peg.
+
+Only the first letter of the color is displayed. b for blue, r for red, and so forth.
+When entering guesses you only need to enter the first character of the color.
+
+
+You have 12 to guess the answer or you lose the game.
+
+Secret Code not shown
+
+
+What is your guess: rybg
+
+
+rybg Result White White 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 11 left.
+What is your guess: pbyg
+
+
+rybg Result White White 
+pbyg Result White 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 10 left.
+What is your guess: orby
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 9 left.
+What is your guess: yypp
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 8 left.
+What is your guess: gybb
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+gybb Result Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 7 left.
+What is your guess: pybr
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+gybb Result Black 
+pybr Result Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 6 left.
+What is your guess: blue, green , orange, purple, red, or yellow.
+A color may appear more than once in the code.
+bad guess. Please guess blue, green , orange, purple, red, or yellow: bbbb
+bad guess. Please guess blue, green , orange, purple, red, or yellow: bbb
+bad guess. Please guess blue, green , orange, purple, red, or yellow: bbbb
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+gybb Result Black 
+pybr Result Black 
+bbbb Result No pegs
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 5 left.
+What is your guess: bbbb
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+gybb Result Black 
+pybr Result Black 
+bbbb Result No pegs
+bbbb Result No pegs
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 4 left.
+What is your guess: ybyb
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+gybb Result Black 
+pybr Result Black 
+bbbb Result No pegs
+bbbb Result No pegs
+ybyb Result No pegs
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 3 left.
+What is your guess: rbpb
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+gybb Result Black 
+pybr Result Black 
+bbbb Result No pegs
+bbbb Result No pegs
+ybyb Result No pegs
+rbpb Result White 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 2 left.
+What is your guess: bbbb
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+gybb Result Black 
+pybr Result Black 
+bbbb Result No pegs
+bbbb Result No pegs
+ybyb Result No pegs
+rbpb Result White 
+bbbb Result No pegs
+.... Result ÑÑÑ
+You have 1 left.
+What is your guess: pppp
+
+
+rybg Result White White 
+pbyg Result White 
+orby Result Black 
+yypp Result No pegs
+gybb Result Black 
+pybr Result Black 
+bbbb Result No pegs
+bbbb Result No pegs
+ybyb Result No pegs
+rbpb Result White 
+bbbb Result No pegs
+pppp Result No pegs
+You have 0 left.
+You lost... the code was: grrr play again (y to play again, n to exit)? y
+What is your guess: rrbb
+
+
+rrbb Result White 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 11 left.
+What is your guess: gbry
+
+
+rrbb Result White 
+gbry Result Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 10 left.
+What is your guess: gyyy
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 9 left.
+What is your guess: ybro
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 8 left.
+What is your guess: obry
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+obry Result Black Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 7 left.
+What is your guess: ogro
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+obry Result Black Black 
+ogro Result Black Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 6 left.
+What is your guess: opry
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+obry Result Black Black 
+ogro Result Black Black 
+opry Result Black Black Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 5 left.
+What is your guess: oprr
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+obry Result Black Black 
+ogro Result Black Black 
+opry Result Black Black Black 
+oprr Result Black Black Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 4 left.
+What is your guess: oprb
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+obry Result Black Black 
+ogro Result Black Black 
+opry Result Black Black Black 
+oprr Result Black Black Black 
+oprb Result Black Black Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 3 left.
+What is your guess: oprg
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+obry Result Black Black 
+ogro Result Black Black 
+opry Result Black Black Black 
+oprr Result Black Black Black 
+oprb Result Black Black Black 
+oprg Result Black Black Black 
+.... Result ÑÑÑ
+.... Result ÑÑÑ
+You have 2 left.
+What is your guess: opro
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+obry Result Black Black 
+ogro Result Black Black 
+opry Result Black Black Black 
+oprr Result Black Black Black 
+oprb Result Black Black Black 
+oprg Result Black Black Black 
+opro Result Black Black Black 
+.... Result ÑÑÑ
+You have 1 left.
+What is your guess: oprp
+
+
+rrbb Result White 
+gbry Result Black 
+gyyy Result No pegs
+ybro Result Black White 
+obry Result Black Black 
+ogro Result Black Black 
+opry Result Black Black Black 
+oprr Result Black Black Black 
+oprb Result Black Black Black 
+oprg Result Black Black Black 
+opro Result Black Black Black 
+oprp Result Black Black Black Black 
+Great job, you won!
+It took you 12 to guess the code.
+Again? y to go, n to exit: n
+Goodbye!

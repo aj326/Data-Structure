@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="A1/src"/>
+	<classpathentry kind="src" path="A2/src"/>
+	<classpathentry kind="src" path="NameSurfer/src"/>
+	<classpathentry kind="lib" path="A2/dist/A2.jar"/>
+	<classpathentry kind="lib" path="NameSurfer/dist/NameSurfer.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="NameSurfer/dist/NameSurfer"/>
+</classpath>

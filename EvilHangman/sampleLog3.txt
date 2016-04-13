@@ -1,0 +1,536 @@
+Welcome to the CS314 hangman game.
+
+What length word do you want to use? 5
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 10
+guesses left: 10
+guessed so far : []
+current word : -----
+Your guess? o
+Sorry, there are no o's
+
+guesses left: 9
+guessed so far : [o]
+current word : -----
+Your guess? u
+Sorry, there are no u's
+
+guesses left: 8
+guessed so far : [o, u]
+current word : -----
+Your guess? i
+Sorry, there are no i's
+
+guesses left: 7
+guessed so far : [o, u, i]
+current word : -----
+Your guess? a
+Yes, there is one a
+
+guesses left: 7
+guessed so far : [o, u, i, a]
+current word : -a---
+Your guess? e
+Yes, there is one e
+
+guesses left: 7
+guessed so far : [o, u, i, a, e]
+current word : -a-e-
+Your guess? s
+Sorry, there are no s's
+
+guesses left: 6
+guessed so far : [o, u, i, a, e, s]
+current word : -a-e-
+Your guess? t
+Sorry, there are no t's
+
+guesses left: 5
+guessed so far : [o, u, i, a, e, s, t]
+current word : -a-e-
+Your guess? r
+Sorry, there are no r's
+
+guesses left: 4
+guessed so far : [o, u, i, a, e, s, t, r]
+current word : -a-e-
+Your guess? m
+Sorry, there are no m's
+
+guesses left: 3
+guessed so far : [o, u, i, a, e, s, t, r, m]
+current word : -a-e-
+Your guess? n
+Sorry, there are no n's
+
+guesses left: 2
+guessed so far : [o, u, i, a, e, s, t, r, m, n]
+current word : -a-e-
+Your guess? b
+Sorry, there are no b's
+
+guesses left: 1
+guessed so far : [o, u, i, a, e, s, t, r, m, n, b]
+current word : -a-e-
+Your guess? d
+Yes, there is one d
+
+guesses left: 1
+guessed so far : [o, u, i, a, e, s, t, r, m, n, b, d]
+current word : -a-ed
+Your guess? h
+Sorry, there are no h's
+
+answer = waxed
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 4
+How many wrong answers allowed? 12
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 10
+guesses left: 12
+guessed so far : []
+current word : ----
+Your guess? o
+Sorry, there are no o's
+
+guesses left: 11
+guessed so far : [o]
+current word : ----
+Your guess? i
+Sorry, there are no i's
+
+guesses left: 10
+guessed so far : [o, i]
+current word : ----
+Your guess? u
+Sorry, there are no u's
+
+guesses left: 9
+guessed so far : [o, i, u]
+current word : ----
+Your guess? a
+Yes, there is one a
+
+guesses left: 9
+guessed so far : [o, i, u, a]
+current word : -a--
+Your guess? e
+Sorry, there are no e's
+
+guesses left: 8
+guessed so far : [o, i, u, a, e]
+current word : -a--
+Your guess? b
+Sorry, there are no b's
+
+guesses left: 7
+guessed so far : [o, i, u, a, e, b]
+current word : -a--
+Your guess? c
+Sorry, there are no c's
+
+guesses left: 6
+guessed so far : [o, i, u, a, e, b, c]
+current word : -a--
+Your guess? d
+Sorry, there are no d's
+
+guesses left: 5
+guessed so far : [o, i, u, a, e, b, c, d]
+current word : -a--
+Your guess? f
+Sorry, there are no f's
+
+guesses left: 4
+guessed so far : [o, i, u, a, e, b, c, d, f]
+current word : -a--
+Your guess? g
+Sorry, there are no g's
+
+guesses left: 3
+guessed so far : [o, i, u, a, e, b, c, d, f, g]
+current word : -a--
+Your guess? h
+Sorry, there are no h's
+
+guesses left: 2
+guessed so far : [o, i, u, a, e, b, c, d, f, g, h]
+current word : -a--
+Your guess? j
+Sorry, there are no j's
+
+guesses left: 1
+guessed so far : [o, i, u, a, e, b, c, d, f, g, h, j]
+current word : -a--
+Your guess? k
+Sorry, there are no k's
+
+answer = vary
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 4
+How many wrong answers allowed? 18
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 10
+guesses left: 18
+guessed so far : []
+current word : ----
+Your guess? a
+Sorry, there are no a's
+
+guesses left: 17
+guessed so far : [a]
+current word : ----
+Your guess? o
+Sorry, there are no o's
+
+guesses left: 16
+guessed so far : [a, o]
+current word : ----
+Your guess? i
+Sorry, there are no i's
+
+guesses left: 15
+guessed so far : [a, o, i]
+current word : ----
+Your guess? u
+Sorry, there are no u's
+
+guesses left: 14
+guessed so far : [a, o, i, u]
+current word : ----
+Your guess? e
+Yes, there is one e
+
+guesses left: 14
+guessed so far : [a, o, i, u, e]
+current word : -e--
+Your guess? b
+Sorry, there are no b's
+
+guesses left: 13
+guessed so far : [a, o, i, u, e, b]
+current word : -e--
+Your guess? c
+Sorry, there are no c's
+
+guesses left: 12
+guessed so far : [a, o, i, u, e, b, c]
+current word : -e--
+Your guess? d
+Sorry, there are no d's
+
+guesses left: 11
+guessed so far : [a, o, i, u, e, b, c, d]
+current word : -e--
+Your guess? f
+Sorry, there are no f's
+
+guesses left: 10
+guessed so far : [a, o, i, u, e, b, c, d, f]
+current word : -e--
+Your guess? g
+Sorry, there are no g's
+
+guesses left: 9
+guessed so far : [a, o, i, u, e, b, c, d, f, g]
+current word : -e--
+Your guess? h
+Sorry, there are no h's
+
+guesses left: 8
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h]
+current word : -e--
+Your guess? j
+Sorry, there are no j's
+
+guesses left: 7
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j]
+current word : -e--
+Your guess? k
+Sorry, there are no k's
+
+guesses left: 6
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j, k]
+current word : -e--
+Your guess? l
+Sorry, there are no l's
+
+guesses left: 5
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j, k, l]
+current word : -e--
+Your guess? m
+Sorry, there are no m's
+
+guesses left: 4
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j, k, l, m]
+current word : -e--
+Your guess? n
+Sorry, there are no n's
+
+guesses left: 3
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j, k, l, m, n]
+current word : -e--
+Your guess? p
+Sorry, there are no p's
+
+guesses left: 2
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j, k, l, m, n, p]
+current word : -e--
+Your guess? r
+Sorry, there are no r's
+
+guesses left: 1
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j, k, l, m, n, p, r]
+current word : -e--
+Your guess? s
+Yes, there is one s
+
+guesses left: 1
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j, k, l, m, n, p, r, s]
+current word : -es-
+Your guess? t
+Yes, there is one t
+
+guesses left: 1
+guessed so far : [a, o, i, u, e, b, c, d, f, g, h, j, k, l, m, n, p, r, s, t]
+current word : -est
+Your guess? w
+Sorry, there are no w's
+
+answer = vest
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 7
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 5
+guesses left: 10
+guessed so far : []
+current word : -------
+Your guess? e
+Yes, there are 2 e's
+
+guesses left: 10
+guessed so far : [e]
+current word : -e---e-
+Your guess? a
+Sorry, there are no a's
+
+guesses left: 9
+guessed so far : [e, a]
+current word : -e---e-
+Your guess? s
+Yes, there is one s
+
+guesses left: 9
+guessed so far : [e, a, s]
+current word : -es--e-
+Your guess? r
+Yes, there is one r
+
+guesses left: 9
+guessed so far : [e, a, s, r]
+current word : res--e-
+Your guess? t
+Sorry, there are no t's
+
+guesses left: 8
+guessed so far : [e, a, s, r, t]
+current word : res--e-
+Your guess? d
+Yes, there is one d
+
+guesses left: 8
+guessed so far : [e, a, s, r, t, d]
+current word : res--ed
+Your guess? i
+Sorry, there are no i's
+
+guesses left: 7
+guessed so far : [e, a, s, r, t, d, i]
+current word : res--ed
+Your guess? o
+Sorry, there are no o's
+
+guesses left: 6
+guessed so far : [e, a, s, r, t, d, i, o]
+current word : res--ed
+Your guess? u
+Yes, there is one u
+
+guesses left: 6
+guessed so far : [e, a, s, r, t, d, i, o, u]
+current word : res-ued
+Your guess? c
+Yes, there is one c
+
+answer = rescued
+You beat me
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 7
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 8
+guesses left: 10
+guessed so far : []
+current word : -------
+Your guess? o
+Yes, there is one o
+
+guesses left: 10
+guessed so far : [o]
+current word : ----o--
+Your guess? i
+Yes, there is one i
+
+guesses left: 10
+guessed so far : [o, i]
+current word : ---io--
+Your guess? u
+Sorry, there are no u's
+
+guesses left: 9
+guessed so far : [o, i, u]
+current word : ---io--
+Your guess? e
+Sorry, there are no e's
+
+guesses left: 8
+guessed so far : [o, i, u, e]
+current word : ---io--
+Your guess? a
+Yes, there is one a
+
+guesses left: 8
+guessed so far : [o, i, u, e, a]
+current word : -a-io--
+Your guess? r
+Sorry, there are no r's
+
+guesses left: 7
+guessed so far : [o, i, u, e, a, r]
+current word : -a-io--
+Your guess? s
+Yes, there is one s
+
+guesses left: 7
+guessed so far : [o, i, u, e, a, r, s]
+current word : -a-io-s
+Your guess? t
+Yes, there is one t
+
+guesses left: 7
+guessed so far : [o, i, u, e, a, r, s, t]
+current word : -atio-s
+Your guess? n
+Yes, there are 2 n's
+
+answer = nations
+You beat me
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 7
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 9
+guesses left: 10
+guessed so far : []
+current word : -------
+Your guess? e
+Yes, there is one e
+
+guesses left: 10
+guessed so far : [e]
+current word : -----e-
+Your guess? r
+Yes, there is one r
+
+guesses left: 10
+guessed so far : [e, r]
+current word : -----er
+Your guess? s
+Sorry, there are no s's
+
+guesses left: 9
+guessed so far : [e, r, s]
+current word : -----er
+Your guess? t
+Yes, there is one t
+
+guesses left: 9
+guessed so far : [e, r, s, t]
+current word : ----ter
+Your guess? r
+You already guessed that
+
+guesses left: 9
+guessed so far : [e, r, s, t]
+current word : ----ter
+Your guess? b
+Sorry, there are no b's
+
+guesses left: 8
+guessed so far : [e, r, s, t, b]
+current word : ----ter
+Your guess? m
+Sorry, there are no m's
+
+guesses left: 7
+guessed so far : [e, r, s, t, b, m]
+current word : ----ter
+Your guess? n
+Sorry, there are no n's
+
+guesses left: 6
+guessed so far : [e, r, s, t, b, m, n]
+current word : ----ter
+Your guess? a
+Sorry, there are no a's
+
+guesses left: 5
+guessed so far : [e, r, s, t, b, m, n, a]
+current word : ----ter
+Your guess? i
+Yes, there is one i
+
+guesses left: 5
+guessed so far : [e, r, s, t, b, m, n, a, i]
+current word : -i--ter
+Your guess? k
+Sorry, there are no k's
+
+guesses left: 4
+guessed so far : [e, r, s, t, b, m, n, a, i, k]
+current word : -i--ter
+Your guess? w
+Sorry, there are no w's
+
+guesses left: 3
+guessed so far : [e, r, s, t, b, m, n, a, i, k, w]
+current word : -i--ter
+Your guess? p
+Sorry, there are no p's
+
+guesses left: 2
+guessed so far : [e, r, s, t, b, m, n, a, i, k, w, p]
+current word : -i--ter
+Your guess? d
+Sorry, there are no d's
+
+guesses left: 1
+guessed so far : [e, r, s, t, b, m, n, a, i, k, w, p, d]
+current word : -i--ter
+Your guess? f
+Sorry, there are no f's
+
+answer = lighter
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: n

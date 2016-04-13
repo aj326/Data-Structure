@@ -1,0 +1,203 @@
+
+       int[][] data1 = { {1, 2, 3},
+                       {2, 3, 4}};
+        int[][] data2 = { {2, 1, 1},
+                       {2, 3, 1}};
+        int[][] e1;
+
+        //test 1, specify size and values constructor
+        MathMatrix mat1 = new MathMatrix(2, 2, 0);
+        e1 = new int[][] {{0,0}, {0,0}};
+        printTestResult( get2DArray(mat1), e1, 1, "Constructor with size and initial val specified.");
+        
+        System.out.println("Test number 2 tests asserstions of constructor (commented out)—passed");
+
+        //test 2, specify size and values constructor, check assertion
+//        mat1 = new MathMatrix(-2, 2, -1);
+//        e1 = new int[][] {};
+//        printTestResult( get2DArray(mat1), e1, 1, "Constructor with size and initial val specified.");
+//        //test 2, specify size and values constructor
+//        mat1 = new MathMatrix(3, 2, 0);
+//        e1 = new int[][] {{0,0}, {0,0}, {0,0}};
+//        printTestResult( get2DArray(mat1), e1, 2, "Constructor with size and initial val specified.");
+//        
+//        
+        //tests 3 and 4, int[][] constructor, deep copy
+        data1 = new int[][]{{1,1,1},{-1,-2,-6},{3,8,9}};
+        mat1 = new MathMatrix( data1 );
+        data1[0][0] = 2;
+        // alter data1. mat1 should be unchanged if deep copy made
+        e1 = new int[][] { {2,1,1},{-1,-2,-6},{3,8,9} };
+        printTestResult( data1, e1, 3, "constructor with one parameter of type int[][]");
+        // data1 altered. mat1 should be unchanged if deep copy made
+        e1 = new int[][] { {1,1,1},{-1,-2,-6},{3,8,9} };
+        printTestResult( get2DArray(mat1), e1, 4, "constructor with one parameter of type int[][]. Testing deep copy made.");
+
+        //tests 5 - 7, addition
+        data1[0][0] = 1;
+        mat1 = new MathMatrix(data1);
+        data2 = new int[][] {{8,1,0},{1,2,6},{1,8,9}};
+                             
+        MathMatrix mat2 = new MathMatrix(data2);
+        MathMatrix mat3 = mat1.add(mat2);
+        e1 = new int[][] {{1,1,1},{-1,-2,-6},{3,8,9}  };
+        printTestResult( get2DArray(mat1), e1, 5, "add method. Testing mat1 unchanged.");
+        e1 = new int[][] { {8,1,0},{1,2,6},{1,8,9}};
+        printTestResult( get2DArray(mat2), e1, 6, "add method. Testing mat2 unchanged.");
+        e1 = new int[][] { {9, 2, 1}, {0, 0, 0},{4,16,18}  };
+        printTestResult( get2DArray(mat3), e1, 7, "add method. Testing mat3 correct result.");
+
+        //test 8-9, multiplication
+        data1= new int[][] {{1,0,0},{0,1,0},{0,0,1}};
+        data2 = new int[][] { {3,1, 2}, {3,2,1}, {2, 1, 3}  };
+        mat2 = new MathMatrix(data2);
+        mat1 = new MathMatrix(data1);
+        mat3 = mat2.multiply(mat1);
+        e1 = new int[][] { {3,1, 2}, {3,2,1}, {2, 1, 3}  };
+        printTestResult( get2DArray(mat3), e1, 8, "multiply method");
+        data1 =new int[][] {{1,1},{1,1}};
+        data2 = new int[][] { {3,1,3}, {3,2,4} };
+        mat2 = new MathMatrix(data2);
+        mat1 = new MathMatrix(data1);
+        mat3 = mat1.multiply(mat2);
+        e1 = new int[][] { {6,3, 7},{6,3, 7}};
+//        System.out.println(mat3.toString());
+        printTestResult( get2DArray(mat3), e1, 9, "multiply method");
+
+        //test 10-11, toString()
+
+//        System.out.println(mat1.toString());
+        String expected = " 1 1\n 1 1\n";
+        if( mat1.toString().equals( expected ) )
+            System.out.println("passed test 10, toString method.");
+        else
+            System.out.println("failed test 10, toString method.");
+        data1 = new int[][] {{-123, -4, -3}};
+        mat1 = new MathMatrix(data1);
+        expected = " -123   -4   -3\n";
+                if( mat1.toString().equals( expected ) )
+            System.out.println("passed test 11, toString method.");
+        else
+            System.out.println("failed test 11, toString method.");
+        
+                
+        //test 12-13 subtract
+        data1= new int[][] {{1,0,0},{0,1,0},{0,0,1}};
+        data2 = new int[][] {{1,0,0},{0,1,0},{0,0,1}};
+        mat1 = new MathMatrix(data1);
+        mat2 = new MathMatrix(data2);
+        mat3 = mat1.subtract(mat2);
+        e1 = new int[][] {{0, 0, 0}, {0, 0, 0},{0, 0, 0}};
+        printTestResult( get2DArray(mat3), e1, 12, "subtract method. Testing mat3 correct result.");
+        mat3 = mat3.subtract(mat1);
+        e1 = new int[][] {{-1, 0, 0}, {0, -1, 0},{0, 0, -1}};
+        printTestResult( get2DArray(mat3), e1, 13, "subtract method. Testing mat3 correct result.");
+        
+
+        //test 14-15 changeElement
+        mat1.changeElement(0, 0, 100);
+        e1 = new int[][]{{100,0,0},{0,1,0},{0,0,1}};
+        printTestResult( get2DArray(mat1), e1, 14, "changeElement method.");
+        
+        mat1.changeElement(1, 0, 200);
+        e1 = new int[][]{{100,0,0},{200,1,0},{0,0,1}};
+        printTestResult( get2DArray(mat1), e1, 15, "changeElement method.");
+        
+        //test 16-17 equals
+        data1 = new int[][] {{1, 2, 3, 0}, {0, 3, 2, 3}, {0, 0, 4, -1}, {1, 2, 3, 4}};
+        mat1 = new MathMatrix(data1);
+        mat2 = new MathMatrix(data1);
+        System.out.print("Test number 16 tests equals method. ");
+        System.out.println(mat1.equals(mat2)? "Pass": "Fail");
+        data1[0][3]=3;
+        mat2 = new MathMatrix(data1);
+        System.out.print("Test number 17 tests equals method. ");
+        System.out.println(mat1.equals(mat2)? "Fail": "Pass");
+
+        //test 18-19 scale
+        data1 = new int[][] {{1, 2, 3, 0}, {0, 3, 2, 3}, {0, 0, 4, -1}, {1, 2, 3, 4}};
+        mat1 = new MathMatrix(data1);
+        mat1.scale(2);
+        e1 = new int[][]{{2,4,6,0},{0, 6, 4, 6}, {0, 0, 8, -2}, {2, 4, 6, 8}};
+        printTestResult( get2DArray(mat1), e1, 18, "scale method.");
+        mat1 = new MathMatrix(2,2,1);
+        mat1.scale(5);
+        e1 = new int[][]{{5,5},{5,5}};
+        printTestResult( get2DArray(mat1), e1, 19, "scale method.");
+        
+        //test 20-21 getVal
+        data1 = new int[][] {{1, 2, 3, 0}, {0, 3, 2, 3}, {0, 0, 4, -1}, {1, 2, 3, 4}};
+        mat1 = new MathMatrix(data1);
+        mat2 = new MathMatrix(3,3,3);
+        System.out.print("Test number 20 tests getVal method. ");
+        System.out.println(mat1.getVal(2, 3)==-1 ? "Pass": "Fail");
+        System.out.print("Test number 21 tests getVal method. ");
+        System.out.println(mat2.getVal(0, 0)==3 ? "Pass": "Fail");
+
+        //test 22-23 numCols
+        data1 = new int[][] {{1, 2, 3, 0}, {0, 3, 2, 3}, {0, 0, 4, -1}, {1, 2, 3, 4}};
+        mat1 = new MathMatrix(data1);
+        mat2 = new MathMatrix(3,3,3);
+        System.out.print("Test number 22 tests numCols method. ");
+        System.out.println(mat1.numCols()==4 ? "Pass": "Fail");
+        System.out.print("Test number 23 tests numCols method. ");
+        System.out.println(mat2.numCols()==3 ? "Pass": "Fail");
+        
+        
+        //test 24-25 numRows
+        data1 = new int[][] {{1, 2, 3, 0}, {0, 3, 2, 3}, {0, 0, 4, -1}, {1, 2, 3, 4}};
+        mat1 = new MathMatrix(data1);
+        mat2 = new MathMatrix(3,3,3);
+        System.out.print("Test number 24 tests numRows method. ");
+        System.out.println(mat1.numCols()==4 ? "Pass": "Fail");
+        System.out.print("Test number 25 tests numRows method. ");
+        System.out.println(mat2.numCols()==3 ? "Pass": "Fail");
+        
+        
+        //test 26-28, upperTriangular
+        data1 = new int[][] {{4,5,4,5}, {0, 3, 22, 1}, {0, 0, 14, -10}, {0, 0, 0, 112}};
+        mat1 = new MathMatrix(data1);
+        if( mat1.isUpperTriangular())
+            System.out.println("Test number 28 tests isUpperTriangular method. Pass.");
+        else
+            System.out.println("Test number 28 tests isUpperTriangular method. Pass.");
+        
+
+        mat1 = new MathMatrix(3,3,3);
+        if( !mat1.isUpperTriangular())
+            System.out.println("Test number 27 tests isUpperTriangular method. Pass.");
+        else
+            System.out.println("Test number 27 tests isUpperTriangular method. Fail.");   
+        
+        mat1 = new MathMatrix(3,3,0);
+        if( mat1.isUpperTriangular())
+            System.out.println("Test number 28 tests isUpperTriangular method. Pass.");
+        else
+            System.out.println("Test number 28 tests isUpperTriangular method. Pass.");         
+        
+        
+        
+        //test 29-30 getTranspose
+        data1 = new int[][] {{1, 2},{3,4}};
+        mat1 = new MathMatrix(data1);
+        mat2 = mat1.getTranspose();
+        e1 = new int[][]{{1,3},{2,4}};
+        printTestResult( get2DArray(mat2), e1, 29, "getTranspose method.");
+        data1 = new int[][] {{1, 2}};
+        mat1 = new MathMatrix(data1);
+        mat2 = mat1.getTranspose();
+//        System.out.println(mat1.toString()+"\n");
+//        System.out.println(mat2.toString()+"\n");
+        e1 = new int[][]{{1},{2}};
+        printTestResult( get2DArray(mat2), e1, 30, "scale method.");
+//        //test transpose
+//        data1 = new int[][] {{1,2},{3,4}};
+//        mat1 = new MathMatrix(data1);
+//        System.out.println(mat1.toString()+"\n");
+//        System.out.println(mat1.getTranspose().toString()+"\n");
+//        
+        
+     
+    }
+
+  

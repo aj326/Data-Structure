@@ -1,0 +1,182 @@
+Welcome to the CS314 hangman game.
+
+1 0
+2 0
+3 0
+4 9
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+15 0
+16 0
+17 0
+18 0
+19 0
+20 0
+21 0
+22 0
+23 0
+24 0
+What length word do you want to use? 4
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 10
+guesses left: 10
+DEBUGGING: words left : 9
+guessed so far : []
+current word : ----
+Your guess? o
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ----, number of words: 6
+pattern: -o--, number of words: 1
+pattern: -oo-, number of words: 2
+END DEBUGGING
+
+Sorry, there are no o's
+
+guesses left: 9
+DEBUGGING: words left : 6
+guessed so far : [o]
+current word : ----
+Your guess? i
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ----, number of words: 5
+pattern: i---, number of words: 1
+END DEBUGGING
+
+Sorry, there are no i's
+
+guesses left: 8
+DEBUGGING: words left : 5
+guessed so far : [o, i]
+current word : ----
+Your guess? u
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ----, number of words: 5
+END DEBUGGING
+
+Sorry, there are no u's
+
+guesses left: 7
+DEBUGGING: words left : 5
+guessed so far : [o, i, u]
+current word : ----
+Your guess? a
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ----, number of words: 2
+pattern: ---a, number of words: 1
+pattern: --a-, number of words: 1
+pattern: a---, number of words: 1
+END DEBUGGING
+
+Sorry, there are no a's
+
+guesses left: 6
+DEBUGGING: words left : 2
+guessed so far : [o, i, u, a]
+current word : ----
+Your guess? e
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --e-, number of words: 1
+pattern: e--e, number of words: 1
+END DEBUGGING
+
+Yes, there is one e
+
+guesses left: 6
+DEBUGGING: words left : 1
+guessed so far : [o, i, u, a, e]
+current word : --e-
+Your guess? c
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no c's
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [o, i, u, a, e, c]
+current word : --e-
+Your guess? r
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no r's
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [o, i, u, a, e, c, r]
+current word : --e-
+Your guess? s
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no s's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [o, i, u, a, e, c, r, s]
+current word : --e-
+Your guess? t
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no t's
+
+guesses left: 2
+DEBUGGING: words left : 1
+guessed so far : [o, i, u, a, e, c, r, s, t]
+current word : --e-
+Your guess? p
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no p's
+
+guesses left: 1
+DEBUGGING: words left : 1
+guessed so far : [o, i, u, a, e, c, r, s, t, p]
+current word : --e-
+Your guess? m
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --e-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no m's
+
+answer = flew
+Sorry, you lose

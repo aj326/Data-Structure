@@ -1,0 +1,20 @@
+jContractor uses the following 3rd party libraries:
+
+Package:   The Byte Code Engineering Library (BCEL)
+Web site:  http://jakarta.apache.org/bcel/index.html
+Version:   BCEL 5.0 Release Candidate 1
+Notes:     We're actually using a slightly modified version of RC1.
+           The build on Apache's download page has a serious bug in
+           org.apache.util.ClassQueue.  The bug is fixed in the BCEL
+           CVS repository.  jContractor's BCEL also does not include
+           org.apache.bcel.verifier.exc.AssertionViolatedException
+           because this class doesn't work with JDK 1.4 (due to a name
+           clash).
+
+Package:   Jakarta Regexp
+Web site:  http://jakarta.apache.org/regexp/
+Version:   1.2
+
+Package:   werken.opt
+Web site:  http://code.werken.com/xpath/
+Version:   0.9.1 beta

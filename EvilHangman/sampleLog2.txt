@@ -1,0 +1,1650 @@
+Welcome to the CS314 hangman game.
+
+1 0
+2 49
+3 534
+4 2232
+5 4169
+6 6166
+7 7359
+8 7069
+9 6079
+10 4591
+11 3068
+12 1880
+13 1137
+14 545
+15 278
+16 103
+17 57
+18 23
+19 3
+20 3
+21 2
+22 1
+23 0
+24 0
+What length word do you want to use? 7
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 10
+guesses left: 10
+DEBUGGING: words left : 7359
+guessed so far : []
+current word : -------
+Your guess? o
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 4980
+pattern: ------o, number of words: 41
+pattern: -----o-, number of words: 217
+pattern: -----oo, number of words: 2
+pattern: ----o--, number of words: 355
+pattern: ----o-o, number of words: 3
+pattern: ----oo-, number of words: 25
+pattern: ---o---, number of words: 239
+pattern: ---o--o, number of words: 3
+pattern: ---o-o-, number of words: 6
+pattern: ---oo--, number of words: 11
+pattern: --o----, number of words: 343
+pattern: --o---o, number of words: 5
+pattern: --o--o-, number of words: 10
+pattern: --o-o--, number of words: 20
+pattern: --o-oo-, number of words: 1
+pattern: --oo---, number of words: 24
+pattern: -o-----, number of words: 735
+pattern: -o----o, number of words: 11
+pattern: -o---o-, number of words: 18
+pattern: -o--o--, number of words: 56
+pattern: -o--oo-, number of words: 4
+pattern: -o-o---, number of words: 20
+pattern: -o-o--o, number of words: 3
+pattern: -o-o-o-, number of words: 3
+pattern: -o-oo--, number of words: 1
+pattern: -oo----, number of words: 74
+pattern: -oo--o-, number of words: 3
+pattern: -oo-o--, number of words: 1
+pattern: o------, number of words: 106
+pattern: o-----o, number of words: 5
+pattern: o----o-, number of words: 6
+pattern: o---o--, number of words: 12
+pattern: o---o-o, number of words: 2
+pattern: o---oo-, number of words: 2
+pattern: o--o---, number of words: 9
+pattern: o-o----, number of words: 2
+pattern: o-o-o--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no o's
+
+guesses left: 9
+DEBUGGING: words left : 4980
+guessed so far : [o]
+current word : -------
+Your guess? i
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 2457
+pattern: ------i, number of words: 8
+pattern: -----i-, number of words: 157
+pattern: ----i--, number of words: 874
+pattern: ----i-i, number of words: 8
+pattern: ---i---, number of words: 322
+pattern: ---i--i, number of words: 1
+pattern: ---i-i-, number of words: 15
+pattern: ---ii--, number of words: 1
+pattern: --i----, number of words: 343
+pattern: --i---i, number of words: 1
+pattern: --i--i-, number of words: 12
+pattern: --i-i--, number of words: 87
+pattern: --ii---, number of words: 1
+pattern: -i-----, number of words: 362
+pattern: -i----i, number of words: 2
+pattern: -i---i-, number of words: 19
+pattern: -i--i--, number of words: 130
+pattern: -i-i---, number of words: 38
+pattern: -i-i-i-, number of words: 2
+pattern: i------, number of words: 87
+pattern: i-----i, number of words: 1
+pattern: i----i-, number of words: 8
+pattern: i---i--, number of words: 23
+pattern: i--i---, number of words: 15
+pattern: i--i-i-, number of words: 3
+pattern: i-i----, number of words: 2
+pattern: i-i-i--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no i's
+
+guesses left: 8
+DEBUGGING: words left : 2457
+guessed so far : [o, i]
+current word : -------
+Your guess? u
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 1698
+pattern: ------u, number of words: 4
+pattern: -----u-, number of words: 58
+pattern: ----u--, number of words: 81
+pattern: ---u---, number of words: 120
+pattern: ---u-u-, number of words: 4
+pattern: --u----, number of words: 165
+pattern: --u---u, number of words: 1
+pattern: --u--u-, number of words: 6
+pattern: -u-----, number of words: 254
+pattern: -u---u-, number of words: 8
+pattern: -u--u--, number of words: 14
+pattern: -u-u---, number of words: 8
+pattern: -u-u-u-, number of words: 1
+pattern: u------, number of words: 27
+pattern: u---u--, number of words: 1
+pattern: u--u---, number of words: 2
+pattern: u-u----, number of words: 3
+pattern: u-u-u--, number of words: 2
+END DEBUGGING
+
+Sorry, there are no u's
+
+guesses left: 7
+DEBUGGING: words left : 1698
+guessed so far : [o, i, u]
+current word : -------
+Your guess? a
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 411
+pattern: ------a, number of words: 7
+pattern: -----a-, number of words: 43
+pattern: ----a--, number of words: 97
+pattern: ---a---, number of words: 163
+pattern: ---a--a, number of words: 2
+pattern: ---a-a-, number of words: 2
+pattern: --a----, number of words: 334
+pattern: --a---a, number of words: 4
+pattern: --a--a-, number of words: 10
+pattern: --a-a--, number of words: 15
+pattern: -a-----, number of words: 295
+pattern: -a----a, number of words: 6
+pattern: -a---a-, number of words: 29
+pattern: -a--a--, number of words: 65
+pattern: -a--a-a, number of words: 7
+pattern: -a-a---, number of words: 43
+pattern: -a-a--a, number of words: 4
+pattern: -a-a-a-, number of words: 11
+pattern: -a-aa--, number of words: 1
+pattern: a------, number of words: 66
+pattern: a-----a, number of words: 6
+pattern: a----a-, number of words: 7
+pattern: a---a--, number of words: 14
+pattern: a---a-a, number of words: 2
+pattern: a--a---, number of words: 25
+pattern: a--a--a, number of words: 2
+pattern: a--a-a-, number of words: 3
+pattern: a-a----, number of words: 17
+pattern: a-a---a, number of words: 1
+pattern: a-a--a-, number of words: 4
+pattern: a-a-a--, number of words: 1
+pattern: a-a-a-a, number of words: 1
+END DEBUGGING
+
+Sorry, there are no a's
+
+guesses left: 6
+DEBUGGING: words left : 411
+guessed so far : [o, i, u, a]
+current word : -------
+Your guess? e
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 1
+pattern: -----e-, number of words: 5
+pattern: ----e--, number of words: 8
+pattern: ----ee-, number of words: 1
+pattern: ---e---, number of words: 2
+pattern: ---e-e-, number of words: 5
+pattern: ---ee--, number of words: 3
+pattern: --e----, number of words: 5
+pattern: --e---e, number of words: 4
+pattern: --e--e-, number of words: 59
+pattern: --e-e--, number of words: 20
+pattern: --e-e-e, number of words: 1
+pattern: --ee---, number of words: 5
+pattern: --ee--e, number of words: 1
+pattern: --ee-e-, number of words: 34
+pattern: -e-----, number of words: 3
+pattern: -e----e, number of words: 1
+pattern: -e---e-, number of words: 46
+pattern: -e--e--, number of words: 82
+pattern: -e--e-e, number of words: 4
+pattern: -e--ee-, number of words: 5
+pattern: -e-e---, number of words: 21
+pattern: -e-e--e, number of words: 7
+pattern: -e-e-e-, number of words: 24
+pattern: -e-e-ee, number of words: 1
+pattern: -e-ee--, number of words: 2
+pattern: -ee--e-, number of words: 14
+pattern: -ee-e--, number of words: 13
+pattern: e------, number of words: 1
+pattern: e---e--, number of words: 4
+pattern: e---e-e, number of words: 2
+pattern: e---ee-, number of words: 1
+pattern: e--e---, number of words: 9
+pattern: e--e--e, number of words: 2
+pattern: e--e-e-, number of words: 1
+pattern: e--ee--, number of words: 2
+pattern: e-e----, number of words: 1
+pattern: e-e--e-, number of words: 7
+pattern: e-e-e--, number of words: 4
+END DEBUGGING
+
+Yes, there are 2 e's
+
+guesses left: 6
+DEBUGGING: words left : 82
+guessed so far : [o, i, u, a, e]
+current word : -e--e--
+Your guess? s
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--e--, number of words: 18
+pattern: -e--e-s, number of words: 28
+pattern: -e--es-, number of words: 4
+pattern: -e--ess, number of words: 8
+pattern: -e-se--, number of words: 4
+pattern: -e-se-s, number of words: 1
+pattern: -e-ses-, number of words: 2
+pattern: -es-e--, number of words: 4
+pattern: -es-e-s, number of words: 1
+pattern: -esse--, number of words: 1
+pattern: -esse-s, number of words: 2
+pattern: se--e--, number of words: 3
+pattern: se--e-s, number of words: 6
+END DEBUGGING
+
+Yes, there is one s
+
+guesses left: 6
+DEBUGGING: words left : 28
+guessed so far : [o, i, u, a, e, s]
+current word : -e--e-s
+Your guess? t
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--e-s, number of words: 17
+pattern: -e--ets, number of words: 2
+pattern: -e-te-s, number of words: 1
+pattern: -ette-s, number of words: 5
+pattern: te--e-s, number of words: 3
+END DEBUGGING
+
+Sorry, there are no t's
+
+guesses left: 5
+DEBUGGING: words left : 17
+guessed so far : [o, i, u, a, e, s, t]
+current word : -e--e-s
+Your guess? r
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--e-s, number of words: 2
+pattern: -e--ers, number of words: 11
+pattern: -e-re-s, number of words: 1
+pattern: -er-e-s, number of words: 1
+pattern: -er-ers, number of words: 1
+pattern: re--ers, number of words: 1
+END DEBUGGING
+
+Yes, there is one r
+
+guesses left: 5
+DEBUGGING: words left : 11
+guessed so far : [o, i, u, a, e, s, t, r]
+current word : -e--ers
+Your guess? m
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 9
+pattern: -e-mers, number of words: 1
+pattern: mem-ers, number of words: 1
+END DEBUGGING
+
+Sorry, there are no m's
+
+guesses left: 4
+DEBUGGING: words left : 9
+guessed so far : [o, i, u, a, e, s, t, r, m]
+current word : -e--ers
+Your guess? n
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 5
+pattern: -en-ers, number of words: 4
+END DEBUGGING
+
+Sorry, there are no n's
+
+guesses left: 3
+DEBUGGING: words left : 5
+guessed so far : [o, i, u, a, e, s, t, r, m, n]
+current word : -e--ers
+Your guess? b
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 4
+pattern: be--ers, number of words: 1
+END DEBUGGING
+
+Sorry, there are no b's
+
+guesses left: 2
+DEBUGGING: words left : 4
+guessed so far : [o, i, u, a, e, s, t, r, m, n, b]
+current word : -e--ers
+Your guess? c
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 4
+END DEBUGGING
+
+Sorry, there are no c's
+
+guesses left: 1
+DEBUGGING: words left : 4
+guessed so far : [o, i, u, a, e, s, t, r, m, n, b, c]
+current word : -e--ers
+Your guess? p
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 2
+pattern: -e-pers, number of words: 1
+pattern: peppers, number of words: 1
+END DEBUGGING
+
+Sorry, there are no p's
+
+answer = ledgers
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 7
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 10
+guesses left: 10
+DEBUGGING: words left : 7359
+guessed so far : []
+current word : -------
+Your guess? o
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 4980
+pattern: ------o, number of words: 41
+pattern: -----o-, number of words: 217
+pattern: -----oo, number of words: 2
+pattern: ----o--, number of words: 355
+pattern: ----o-o, number of words: 3
+pattern: ----oo-, number of words: 25
+pattern: ---o---, number of words: 239
+pattern: ---o--o, number of words: 3
+pattern: ---o-o-, number of words: 6
+pattern: ---oo--, number of words: 11
+pattern: --o----, number of words: 343
+pattern: --o---o, number of words: 5
+pattern: --o--o-, number of words: 10
+pattern: --o-o--, number of words: 20
+pattern: --o-oo-, number of words: 1
+pattern: --oo---, number of words: 24
+pattern: -o-----, number of words: 735
+pattern: -o----o, number of words: 11
+pattern: -o---o-, number of words: 18
+pattern: -o--o--, number of words: 56
+pattern: -o--oo-, number of words: 4
+pattern: -o-o---, number of words: 20
+pattern: -o-o--o, number of words: 3
+pattern: -o-o-o-, number of words: 3
+pattern: -o-oo--, number of words: 1
+pattern: -oo----, number of words: 74
+pattern: -oo--o-, number of words: 3
+pattern: -oo-o--, number of words: 1
+pattern: o------, number of words: 106
+pattern: o-----o, number of words: 5
+pattern: o----o-, number of words: 6
+pattern: o---o--, number of words: 12
+pattern: o---o-o, number of words: 2
+pattern: o---oo-, number of words: 2
+pattern: o--o---, number of words: 9
+pattern: o-o----, number of words: 2
+pattern: o-o-o--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no o's
+
+guesses left: 9
+DEBUGGING: words left : 4980
+guessed so far : [o]
+current word : -------
+Your guess? i
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 2457
+pattern: ------i, number of words: 8
+pattern: -----i-, number of words: 157
+pattern: ----i--, number of words: 874
+pattern: ----i-i, number of words: 8
+pattern: ---i---, number of words: 322
+pattern: ---i--i, number of words: 1
+pattern: ---i-i-, number of words: 15
+pattern: ---ii--, number of words: 1
+pattern: --i----, number of words: 343
+pattern: --i---i, number of words: 1
+pattern: --i--i-, number of words: 12
+pattern: --i-i--, number of words: 87
+pattern: --ii---, number of words: 1
+pattern: -i-----, number of words: 362
+pattern: -i----i, number of words: 2
+pattern: -i---i-, number of words: 19
+pattern: -i--i--, number of words: 130
+pattern: -i-i---, number of words: 38
+pattern: -i-i-i-, number of words: 2
+pattern: i------, number of words: 87
+pattern: i-----i, number of words: 1
+pattern: i----i-, number of words: 8
+pattern: i---i--, number of words: 23
+pattern: i--i---, number of words: 15
+pattern: i--i-i-, number of words: 3
+pattern: i-i----, number of words: 2
+pattern: i-i-i--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no i's
+
+guesses left: 8
+DEBUGGING: words left : 2457
+guessed so far : [o, i]
+current word : -------
+Your guess? u
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 1698
+pattern: ------u, number of words: 4
+pattern: -----u-, number of words: 58
+pattern: ----u--, number of words: 81
+pattern: ---u---, number of words: 120
+pattern: ---u-u-, number of words: 4
+pattern: --u----, number of words: 165
+pattern: --u---u, number of words: 1
+pattern: --u--u-, number of words: 6
+pattern: -u-----, number of words: 254
+pattern: -u---u-, number of words: 8
+pattern: -u--u--, number of words: 14
+pattern: -u-u---, number of words: 8
+pattern: -u-u-u-, number of words: 1
+pattern: u------, number of words: 27
+pattern: u---u--, number of words: 1
+pattern: u--u---, number of words: 2
+pattern: u-u----, number of words: 3
+pattern: u-u-u--, number of words: 2
+END DEBUGGING
+
+Sorry, there are no u's
+
+guesses left: 7
+DEBUGGING: words left : 1698
+guessed so far : [o, i, u]
+current word : -------
+Your guess? a
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 411
+pattern: ------a, number of words: 7
+pattern: -----a-, number of words: 43
+pattern: ----a--, number of words: 97
+pattern: ---a---, number of words: 163
+pattern: ---a--a, number of words: 2
+pattern: ---a-a-, number of words: 2
+pattern: --a----, number of words: 334
+pattern: --a---a, number of words: 4
+pattern: --a--a-, number of words: 10
+pattern: --a-a--, number of words: 15
+pattern: -a-----, number of words: 295
+pattern: -a----a, number of words: 6
+pattern: -a---a-, number of words: 29
+pattern: -a--a--, number of words: 65
+pattern: -a--a-a, number of words: 7
+pattern: -a-a---, number of words: 43
+pattern: -a-a--a, number of words: 4
+pattern: -a-a-a-, number of words: 11
+pattern: -a-aa--, number of words: 1
+pattern: a------, number of words: 66
+pattern: a-----a, number of words: 6
+pattern: a----a-, number of words: 7
+pattern: a---a--, number of words: 14
+pattern: a---a-a, number of words: 2
+pattern: a--a---, number of words: 25
+pattern: a--a--a, number of words: 2
+pattern: a--a-a-, number of words: 3
+pattern: a-a----, number of words: 17
+pattern: a-a---a, number of words: 1
+pattern: a-a--a-, number of words: 4
+pattern: a-a-a--, number of words: 1
+pattern: a-a-a-a, number of words: 1
+END DEBUGGING
+
+Sorry, there are no a's
+
+guesses left: 6
+DEBUGGING: words left : 411
+guessed so far : [o, i, u, a]
+current word : -------
+Your guess? e
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 1
+pattern: -----e-, number of words: 5
+pattern: ----e--, number of words: 8
+pattern: ----ee-, number of words: 1
+pattern: ---e---, number of words: 2
+pattern: ---e-e-, number of words: 5
+pattern: ---ee--, number of words: 3
+pattern: --e----, number of words: 5
+pattern: --e---e, number of words: 4
+pattern: --e--e-, number of words: 59
+pattern: --e-e--, number of words: 20
+pattern: --e-e-e, number of words: 1
+pattern: --ee---, number of words: 5
+pattern: --ee--e, number of words: 1
+pattern: --ee-e-, number of words: 34
+pattern: -e-----, number of words: 3
+pattern: -e----e, number of words: 1
+pattern: -e---e-, number of words: 46
+pattern: -e--e--, number of words: 82
+pattern: -e--e-e, number of words: 4
+pattern: -e--ee-, number of words: 5
+pattern: -e-e---, number of words: 21
+pattern: -e-e--e, number of words: 7
+pattern: -e-e-e-, number of words: 24
+pattern: -e-e-ee, number of words: 1
+pattern: -e-ee--, number of words: 2
+pattern: -ee--e-, number of words: 14
+pattern: -ee-e--, number of words: 13
+pattern: e------, number of words: 1
+pattern: e---e--, number of words: 4
+pattern: e---e-e, number of words: 2
+pattern: e---ee-, number of words: 1
+pattern: e--e---, number of words: 9
+pattern: e--e--e, number of words: 2
+pattern: e--e-e-, number of words: 1
+pattern: e--ee--, number of words: 2
+pattern: e-e----, number of words: 1
+pattern: e-e--e-, number of words: 7
+pattern: e-e-e--, number of words: 4
+END DEBUGGING
+
+Yes, there are 2 e's
+
+guesses left: 6
+DEBUGGING: words left : 82
+guessed so far : [o, i, u, a, e]
+current word : -e--e--
+Your guess? s
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--e--, number of words: 18
+pattern: -e--e-s, number of words: 28
+pattern: -e--es-, number of words: 4
+pattern: -e--ess, number of words: 8
+pattern: -e-se--, number of words: 4
+pattern: -e-se-s, number of words: 1
+pattern: -e-ses-, number of words: 2
+pattern: -es-e--, number of words: 4
+pattern: -es-e-s, number of words: 1
+pattern: -esse--, number of words: 1
+pattern: -esse-s, number of words: 2
+pattern: se--e--, number of words: 3
+pattern: se--e-s, number of words: 6
+END DEBUGGING
+
+Yes, there is one s
+
+guesses left: 6
+DEBUGGING: words left : 28
+guessed so far : [o, i, u, a, e, s]
+current word : -e--e-s
+Your guess? t
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--e-s, number of words: 17
+pattern: -e--ets, number of words: 2
+pattern: -e-te-s, number of words: 1
+pattern: -ette-s, number of words: 5
+pattern: te--e-s, number of words: 3
+END DEBUGGING
+
+Sorry, there are no t's
+
+guesses left: 5
+DEBUGGING: words left : 17
+guessed so far : [o, i, u, a, e, s, t]
+current word : -e--e-s
+Your guess? r
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--e-s, number of words: 2
+pattern: -e--ers, number of words: 11
+pattern: -e-re-s, number of words: 1
+pattern: -er-e-s, number of words: 1
+pattern: -er-ers, number of words: 1
+pattern: re--ers, number of words: 1
+END DEBUGGING
+
+Yes, there is one r
+
+guesses left: 5
+DEBUGGING: words left : 11
+guessed so far : [o, i, u, a, e, s, t, r]
+current word : -e--ers
+Your guess? d
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 5
+pattern: -e-ders, number of words: 3
+pattern: -ed-ers, number of words: 1
+pattern: -edders, number of words: 2
+END DEBUGGING
+
+Sorry, there are no d's
+
+guesses left: 4
+DEBUGGING: words left : 5
+guessed so far : [o, i, u, a, e, s, t, r, d]
+current word : -e--ers
+Your guess? g
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 5
+END DEBUGGING
+
+Sorry, there are no g's
+
+guesses left: 3
+DEBUGGING: words left : 5
+guessed so far : [o, i, u, a, e, s, t, r, d, g]
+current word : -e--ers
+Your guess? m
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 3
+pattern: -e-mers, number of words: 1
+pattern: mem-ers, number of words: 1
+END DEBUGGING
+
+Sorry, there are no m's
+
+guesses left: 2
+DEBUGGING: words left : 3
+guessed so far : [o, i, u, a, e, s, t, r, d, g, m]
+current word : -e--ers
+Your guess? n
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e--ers, number of words: 2
+pattern: -en-ers, number of words: 1
+END DEBUGGING
+
+Sorry, there are no n's
+
+guesses left: 1
+DEBUGGING: words left : 2
+guessed so far : [o, i, u, a, e, s, t, r, d, g, m, n]
+current word : -e--ers
+Your guess? p
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -e-pers, number of words: 1
+pattern: peppers, number of words: 1
+END DEBUGGING
+
+Yes, there is one p
+
+guesses left: 1
+DEBUGGING: words left : 1
+guessed so far : [o, i, u, a, e, s, t, r, d, g, m, n, p]
+current word : -e-pers
+Your guess? h
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: he-pers, number of words: 1
+END DEBUGGING
+
+Yes, there is one h
+
+guesses left: 1
+DEBUGGING: words left : 1
+guessed so far : [o, i, u, a, e, s, t, r, d, g, m, n, p, h]
+current word : he-pers
+Your guess? l
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: helpers, number of words: 1
+END DEBUGGING
+
+Yes, there is one l
+
+answer = helpers
+You beat me
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 7
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 10
+guesses left: 10
+DEBUGGING: words left : 7359
+guessed so far : []
+current word : -------
+Your guess? e
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 2362
+pattern: ------e, number of words: 458
+pattern: -----e-, number of words: 1515
+pattern: -----ee, number of words: 16
+pattern: ----e--, number of words: 725
+pattern: ----e-e, number of words: 26
+pattern: ----ee-, number of words: 17
+pattern: ---e---, number of words: 228
+pattern: ---e--e, number of words: 39
+pattern: ---e-e-, number of words: 85
+pattern: ---e-ee, number of words: 1
+pattern: ---ee--, number of words: 5
+pattern: ---ee-e, number of words: 1
+pattern: --e----, number of words: 141
+pattern: --e---e, number of words: 32
+pattern: --e--e-, number of words: 151
+pattern: --e--ee, number of words: 1
+pattern: --e-e--, number of words: 39
+pattern: --e-e-e, number of words: 1
+pattern: --ee---, number of words: 19
+pattern: --ee--e, number of words: 1
+pattern: --ee-e-, number of words: 35
+pattern: -e-----, number of words: 541
+pattern: -e----e, number of words: 101
+pattern: -e---e-, number of words: 246
+pattern: -e---ee, number of words: 3
+pattern: -e--e--, number of words: 126
+pattern: -e--e-e, number of words: 8
+pattern: -e--ee-, number of words: 6
+pattern: -e-e---, number of words: 49
+pattern: -e-e--e, number of words: 14
+pattern: -e-e-e-, number of words: 24
+pattern: -e-e-ee, number of words: 1
+pattern: -e-ee--, number of words: 2
+pattern: -ee----, number of words: 26
+pattern: -ee---e, number of words: 3
+pattern: -ee--e-, number of words: 14
+pattern: -ee-e--, number of words: 13
+pattern: e------, number of words: 102
+pattern: e-----e, number of words: 36
+pattern: e----e-, number of words: 69
+pattern: e----ee, number of words: 1
+pattern: e---e--, number of words: 16
+pattern: e---e-e, number of words: 3
+pattern: e---ee-, number of words: 1
+pattern: e--e---, number of words: 18
+pattern: e--e--e, number of words: 3
+pattern: e--e-e-, number of words: 1
+pattern: e--ee--, number of words: 2
+pattern: e-e----, number of words: 16
+pattern: e-e---e, number of words: 3
+pattern: e-e--e-, number of words: 9
+pattern: e-e-e--, number of words: 4
+END DEBUGGING
+
+Sorry, there are no e's
+
+guesses left: 9
+DEBUGGING: words left : 2362
+guessed so far : [e]
+current word : -------
+Your guess? i
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 862
+pattern: ------i, number of words: 9
+pattern: -----i-, number of words: 137
+pattern: ----i--, number of words: 644
+pattern: ----i-i, number of words: 6
+pattern: ---i---, number of words: 150
+pattern: ---i--i, number of words: 2
+pattern: ---i-i-, number of words: 10
+pattern: ---ii--, number of words: 1
+pattern: --i----, number of words: 83
+pattern: --i---i, number of words: 2
+pattern: --i--i-, number of words: 10
+pattern: --i-i--, number of words: 71
+pattern: -i-----, number of words: 140
+pattern: -i----i, number of words: 4
+pattern: -i---i-, number of words: 18
+pattern: -i--i--, number of words: 117
+pattern: -i-i---, number of words: 33
+pattern: -i-i-i-, number of words: 2
+pattern: i------, number of words: 29
+pattern: i----i-, number of words: 4
+pattern: i---i--, number of words: 15
+pattern: i--i---, number of words: 8
+pattern: i--i-i-, number of words: 3
+pattern: i-i--i-, number of words: 1
+pattern: i-i-i--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no i's
+
+guesses left: 8
+DEBUGGING: words left : 862
+guessed so far : [e, i]
+current word : -------
+Your guess? o
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 315
+pattern: ------o, number of words: 9
+pattern: -----o-, number of words: 57
+pattern: -----oo, number of words: 2
+pattern: ----o--, number of words: 131
+pattern: ----oo-, number of words: 17
+pattern: ---o---, number of words: 46
+pattern: ---o--o, number of words: 1
+pattern: ---o-o-, number of words: 4
+pattern: ---oo--, number of words: 5
+pattern: --o----, number of words: 37
+pattern: --o---o, number of words: 2
+pattern: --o--o-, number of words: 8
+pattern: --o-o--, number of words: 10
+pattern: --o-oo-, number of words: 1
+pattern: -o-----, number of words: 102
+pattern: -o----o, number of words: 4
+pattern: -o---o-, number of words: 10
+pattern: -o--o--, number of words: 38
+pattern: -o--oo-, number of words: 4
+pattern: -o-o---, number of words: 7
+pattern: -o-o--o, number of words: 3
+pattern: -o-o-o-, number of words: 3
+pattern: -o-oo--, number of words: 1
+pattern: -oo----, number of words: 11
+pattern: -oo--o-, number of words: 3
+pattern: -oo-o--, number of words: 1
+pattern: o------, number of words: 14
+pattern: o-----o, number of words: 1
+pattern: o----o-, number of words: 2
+pattern: o---o--, number of words: 6
+pattern: o---o-o, number of words: 1
+pattern: o---oo-, number of words: 2
+pattern: o--o---, number of words: 2
+pattern: o-o----, number of words: 1
+pattern: o-o-o--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no o's
+
+guesses left: 7
+DEBUGGING: words left : 315
+guessed so far : [e, i, o]
+current word : -------
+Your guess? u
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 163
+pattern: -----u-, number of words: 20
+pattern: ----u--, number of words: 12
+pattern: ---u---, number of words: 26
+pattern: ---u-u-, number of words: 1
+pattern: --u----, number of words: 22
+pattern: --u--u-, number of words: 4
+pattern: -u-----, number of words: 44
+pattern: -u---u-, number of words: 5
+pattern: -u--u--, number of words: 3
+pattern: -u-u---, number of words: 4
+pattern: u------, number of words: 6
+pattern: u--u---, number of words: 2
+pattern: u-u----, number of words: 1
+pattern: u-u-u--, number of words: 2
+END DEBUGGING
+
+Sorry, there are no u's
+
+guesses left: 6
+DEBUGGING: words left : 163
+guessed so far : [e, i, o, u]
+current word : -------
+Your guess? a
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -------, number of words: 1
+pattern: -----a-, number of words: 1
+pattern: ----a--, number of words: 7
+pattern: ---a---, number of words: 13
+pattern: --a----, number of words: 16
+pattern: --a---a, number of words: 2
+pattern: --a--a-, number of words: 6
+pattern: --a-a--, number of words: 7
+pattern: -a-----, number of words: 2
+pattern: -a----a, number of words: 1
+pattern: -a---a-, number of words: 20
+pattern: -a--a--, number of words: 38
+pattern: -a--a-a, number of words: 6
+pattern: -a-a---, number of words: 9
+pattern: -a-a--a, number of words: 2
+pattern: -a-a-a-, number of words: 11
+pattern: -a-aa--, number of words: 1
+pattern: a----a-, number of words: 3
+pattern: a---a--, number of words: 5
+pattern: a--a---, number of words: 1
+pattern: a--a--a, number of words: 2
+pattern: a--a-a-, number of words: 2
+pattern: a-a----, number of words: 2
+pattern: a-a--a-, number of words: 3
+pattern: a-a-a--, number of words: 1
+pattern: a-a-a-a, number of words: 1
+END DEBUGGING
+
+Yes, there are 2 a's
+
+guesses left: 6
+DEBUGGING: words left : 38
+guessed so far : [e, i, o, u, a]
+current word : -a--a--
+Your guess? r
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a--a--, number of words: 12
+pattern: -a--ar-, number of words: 12
+pattern: -a-ra--, number of words: 1
+pattern: -ar-a--, number of words: 3
+pattern: -ar-ar-, number of words: 3
+pattern: -arra--, number of words: 2
+pattern: ra--a--, number of words: 4
+pattern: ra--ar-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no r's
+
+guesses left: 5
+DEBUGGING: words left : 12
+guessed so far : [e, i, o, u, a, r]
+current word : -a--a--
+Your guess? s
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a--a--, number of words: 3
+pattern: -a--a-s, number of words: 3
+pattern: -a--as-, number of words: 2
+pattern: -a--ass, number of words: 2
+pattern: sa--a--, number of words: 1
+pattern: sa--a-s, number of words: 1
+END DEBUGGING
+
+Sorry, there are no s's
+
+guesses left: 4
+DEBUGGING: words left : 3
+guessed so far : [e, i, o, u, a, r, s]
+current word : -a--a--
+Your guess? t
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a--a--, number of words: 1
+pattern: -a--a-t, number of words: 1
+pattern: ta--a--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no t's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [e, i, o, u, a, r, s, t]
+current word : -a--a--
+Your guess? m
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a--a--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no m's
+
+guesses left: 2
+DEBUGGING: words left : 1
+guessed so far : [e, i, o, u, a, r, s, t, m]
+current word : -a--a--
+Your guess? n
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a--a--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no n's
+
+guesses left: 1
+DEBUGGING: words left : 1
+guessed so far : [e, i, o, u, a, r, s, t, m, n]
+current word : -a--a--
+Your guess? b
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a--a--, number of words: 1
+END DEBUGGING
+
+Sorry, there are no b's
+
+answer = fallacy
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 8
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 1
+guesses left: 10
+DEBUGGING: words left : 7069
+guessed so far : []
+current word : --------
+Your guess? e
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --------, number of words: 2211
+pattern: -------e, number of words: 448
+pattern: ------e-, number of words: 932
+pattern: ------ee, number of words: 5
+pattern: -----e--, number of words: 605
+pattern: -----e-e, number of words: 21
+pattern: -----ee-, number of words: 15
+pattern: ----e---, number of words: 197
+pattern: ----e--e, number of words: 47
+pattern: ----e-e-, number of words: 150
+pattern: ----e-ee, number of words: 2
+pattern: ----ee--, number of words: 5
+pattern: ---e----, number of words: 265
+pattern: ---e---e, number of words: 51
+pattern: ---e--e-, number of words: 140
+pattern: ---e--ee, number of words: 5
+pattern: ---e-e--, number of words: 62
+pattern: ---e-ee-, number of words: 3
+pattern: ---ee---, number of words: 2
+pattern: ---ee-e-, number of words: 7
+pattern: --e-----, number of words: 195
+pattern: --e----e, number of words: 44
+pattern: --e---e-, number of words: 95
+pattern: --e---ee, number of words: 1
+pattern: --e--e--, number of words: 49
+pattern: --e--e-e, number of words: 1
+pattern: --e--ee-, number of words: 3
+pattern: --e-e---, number of words: 17
+pattern: --e-e--e, number of words: 6
+pattern: --e-e-e-, number of words: 6
+pattern: --ee----, number of words: 37
+pattern: --ee---e, number of words: 1
+pattern: --ee--e-, number of words: 3
+pattern: --ee-e--, number of words: 16
+pattern: -e------, number of words: 385
+pattern: -e-----e, number of words: 100
+pattern: -e----e-, number of words: 245
+pattern: -e----ee, number of words: 6
+pattern: -e---e--, number of words: 74
+pattern: -e---e-e, number of words: 7
+pattern: -e---ee-, number of words: 4
+pattern: -e--e---, number of words: 41
+pattern: -e--e--e, number of words: 6
+pattern: -e--e-e-, number of words: 35
+pattern: -e-e----, number of words: 60
+pattern: -e-e---e, number of words: 17
+pattern: -e-e--e-, number of words: 63
+pattern: -e-e-e--, number of words: 12
+pattern: -e-e-ee-, number of words: 2
+pattern: -e-ee-e-, number of words: 2
+pattern: -ee-----, number of words: 10
+pattern: -ee----e, number of words: 1
+pattern: -ee---e-, number of words: 3
+pattern: -ee--e--, number of words: 8
+pattern: -ee-e---, number of words: 2
+pattern: -ee-e-e-, number of words: 1
+pattern: e-------, number of words: 100
+pattern: e------e, number of words: 24
+pattern: e-----e-, number of words: 87
+pattern: e-----ee, number of words: 1
+pattern: e----e--, number of words: 20
+pattern: e----ee-, number of words: 3
+pattern: e---e---, number of words: 6
+pattern: e---e--e, number of words: 2
+pattern: e---e-e-, number of words: 7
+pattern: e--e----, number of words: 15
+pattern: e--e---e, number of words: 5
+pattern: e--e--e-, number of words: 15
+pattern: e--e-e--, number of words: 2
+pattern: e--ee--e, number of words: 1
+pattern: e--ee-e-, number of words: 2
+pattern: e-e-----, number of words: 27
+pattern: e-e----e, number of words: 7
+pattern: e-e---e-, number of words: 7
+pattern: e-e--e--, number of words: 2
+pattern: e-e--e-e, number of words: 1
+pattern: e-e-e---, number of words: 3
+pattern: ee------, number of words: 1
+END DEBUGGING
+
+Yes, there are 2 e's
+
+guesses left: 10
+DEBUGGING: words left : 150
+guessed so far : [e]
+current word : ----e-e-
+Your guess? s
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ----e-e-, number of words: 109
+pattern: ----e-es, number of words: 10
+pattern: ---se-e-, number of words: 5
+pattern: --s-e-e-, number of words: 10
+pattern: s---e-e-, number of words: 16
+END DEBUGGING
+
+Yes, there is one s
+
+guesses left: 10
+DEBUGGING: words left : 5
+guessed so far : [e, s]
+current word : ---se-e-
+Your guess? t
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ---se-e-, number of words: 4
+pattern: ---sete-, number of words: 1
+END DEBUGGING
+
+Yes, there is one t
+
+guesses left: 10
+DEBUGGING: words left : 1
+guessed so far : [e, s, t]
+current word : ---sete-
+Your guess? r
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ---sete-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no r's
+
+guesses left: 9
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r]
+current word : ---sete-
+Your guess? n
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ---sete-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no n's
+
+guesses left: 8
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n]
+current word : ---sete-
+Your guess? b
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ---sete-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no b's
+
+guesses left: 7
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b]
+current word : ---sete-
+Your guess? m
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ---sete-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no m's
+
+guesses left: 6
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b, m]
+current word : ---sete-
+Your guess? i
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ---sete-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no i's
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b, m, i]
+current word : ---sete-
+Your guess? o
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --osete-, number of words: 1
+END DEBUGGING
+
+Yes, there is one o
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b, m, i, o]
+current word : --osete-
+Your guess? m
+You already guessed that
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b, m, i, o]
+current word : --osete-
+Your guess? k
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --osete-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no k's
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b, m, i, o, k]
+current word : --osete-
+Your guess? d
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --oseted, number of words: 1
+END DEBUGGING
+
+Yes, there is one d
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b, m, i, o, k, d]
+current word : --oseted
+Your guess? a
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --oseted, number of words: 1
+END DEBUGGING
+
+Sorry, there are no a's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b, m, i, o, k, d, a]
+current word : --oseted
+Your guess? c
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: c-oseted, number of words: 1
+END DEBUGGING
+
+Yes, there is one c
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [e, s, t, r, n, b, m, i, o, k, d, a, c]
+current word : c-oseted
+Your guess? l
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: closeted, number of words: 1
+END DEBUGGING
+
+Yes, there is one l
+
+answer = closeted
+You beat me
+
+Another game? Enter y for another game, anything else to quit: y
+What length word do you want to use? 8
+How many wrong answers allowed? 10
+What difficulty level do you want?
+Enter a number between 1(EASIEST) and 10(HARDEST) : 5
+guesses left: 10
+DEBUGGING: words left : 7069
+guessed so far : []
+current word : --------
+Your guess? e
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: --------, number of words: 2211
+pattern: -------e, number of words: 448
+pattern: ------e-, number of words: 932
+pattern: ------ee, number of words: 5
+pattern: -----e--, number of words: 605
+pattern: -----e-e, number of words: 21
+pattern: -----ee-, number of words: 15
+pattern: ----e---, number of words: 197
+pattern: ----e--e, number of words: 47
+pattern: ----e-e-, number of words: 150
+pattern: ----e-ee, number of words: 2
+pattern: ----ee--, number of words: 5
+pattern: ---e----, number of words: 265
+pattern: ---e---e, number of words: 51
+pattern: ---e--e-, number of words: 140
+pattern: ---e--ee, number of words: 5
+pattern: ---e-e--, number of words: 62
+pattern: ---e-ee-, number of words: 3
+pattern: ---ee---, number of words: 2
+pattern: ---ee-e-, number of words: 7
+pattern: --e-----, number of words: 195
+pattern: --e----e, number of words: 44
+pattern: --e---e-, number of words: 95
+pattern: --e---ee, number of words: 1
+pattern: --e--e--, number of words: 49
+pattern: --e--e-e, number of words: 1
+pattern: --e--ee-, number of words: 3
+pattern: --e-e---, number of words: 17
+pattern: --e-e--e, number of words: 6
+pattern: --e-e-e-, number of words: 6
+pattern: --ee----, number of words: 37
+pattern: --ee---e, number of words: 1
+pattern: --ee--e-, number of words: 3
+pattern: --ee-e--, number of words: 16
+pattern: -e------, number of words: 385
+pattern: -e-----e, number of words: 100
+pattern: -e----e-, number of words: 245
+pattern: -e----ee, number of words: 6
+pattern: -e---e--, number of words: 74
+pattern: -e---e-e, number of words: 7
+pattern: -e---ee-, number of words: 4
+pattern: -e--e---, number of words: 41
+pattern: -e--e--e, number of words: 6
+pattern: -e--e-e-, number of words: 35
+pattern: -e-e----, number of words: 60
+pattern: -e-e---e, number of words: 17
+pattern: -e-e--e-, number of words: 63
+pattern: -e-e-e--, number of words: 12
+pattern: -e-e-ee-, number of words: 2
+pattern: -e-ee-e-, number of words: 2
+pattern: -ee-----, number of words: 10
+pattern: -ee----e, number of words: 1
+pattern: -ee---e-, number of words: 3
+pattern: -ee--e--, number of words: 8
+pattern: -ee-e---, number of words: 2
+pattern: -ee-e-e-, number of words: 1
+pattern: e-------, number of words: 100
+pattern: e------e, number of words: 24
+pattern: e-----e-, number of words: 87
+pattern: e-----ee, number of words: 1
+pattern: e----e--, number of words: 20
+pattern: e----ee-, number of words: 3
+pattern: e---e---, number of words: 6
+pattern: e---e--e, number of words: 2
+pattern: e---e-e-, number of words: 7
+pattern: e--e----, number of words: 15
+pattern: e--e---e, number of words: 5
+pattern: e--e--e-, number of words: 15
+pattern: e--e-e--, number of words: 2
+pattern: e--ee--e, number of words: 1
+pattern: e--ee-e-, number of words: 2
+pattern: e-e-----, number of words: 27
+pattern: e-e----e, number of words: 7
+pattern: e-e---e-, number of words: 7
+pattern: e-e--e--, number of words: 2
+pattern: e-e--e-e, number of words: 1
+pattern: e-e-e---, number of words: 3
+pattern: ee------, number of words: 1
+END DEBUGGING
+
+Yes, there is one e
+
+guesses left: 10
+DEBUGGING: words left : 265
+guessed so far : [e]
+current word : ---e----
+Your guess? a
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: ---e----, number of words: 108
+pattern: ---e---a, number of words: 2
+pattern: ---e--a-, number of words: 22
+pattern: ---e-a--, number of words: 32
+pattern: ---e-a-a, number of words: 2
+pattern: ---ea---, number of words: 4
+pattern: ---ea-a-, number of words: 1
+pattern: -a-e----, number of words: 26
+pattern: -a-e--a-, number of words: 12
+pattern: -a-e-a--, number of words: 4
+pattern: -a-ea---, number of words: 1
+pattern: a--e----, number of words: 35
+pattern: a--e---a, number of words: 3
+pattern: a--e--a-, number of words: 12
+pattern: a--e-a--, number of words: 1
+END DEBUGGING
+
+Yes, there are 2 a's
+
+guesses left: 10
+DEBUGGING: words left : 12
+guessed so far : [e, a]
+current word : -a-e--a-
+Your guess? o
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a-e--a-, number of words: 12
+END DEBUGGING
+
+Sorry, there are no o's
+
+guesses left: 9
+DEBUGGING: words left : 12
+guessed so far : [e, a, o]
+current word : -a-e--a-
+Your guess? s
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a-e--a-, number of words: 9
+pattern: -a-es-a-, number of words: 1
+pattern: sa-es-a-, number of words: 2
+END DEBUGGING
+
+Sorry, there are no s's
+
+guesses left: 8
+DEBUGGING: words left : 9
+guessed so far : [e, a, o, s]
+current word : -a-e--a-
+Your guess? r
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a-e--a-, number of words: 1
+pattern: -a-e--ar, number of words: 1
+pattern: -a-er-a-, number of words: 6
+pattern: -are--a-, number of words: 1
+END DEBUGGING
+
+Yes, there is one r
+
+guesses left: 8
+DEBUGGING: words left : 6
+guessed so far : [e, a, o, s, r]
+current word : -a-er-a-
+Your guess? t
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -a-er-a-, number of words: 1
+pattern: -ater-a-, number of words: 5
+END DEBUGGING
+
+Yes, there is one t
+
+guesses left: 8
+DEBUGGING: words left : 5
+guessed so far : [e, a, o, s, r, t]
+current word : -ater-a-
+Your guess? g
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -ater-a-, number of words: 5
+END DEBUGGING
+
+Sorry, there are no g's
+
+guesses left: 7
+DEBUGGING: words left : 5
+guessed so far : [e, a, o, s, r, t, g]
+current word : -ater-a-
+Your guess? m
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -ater-a-, number of words: 2
+pattern: -aterma-, number of words: 1
+pattern: mater-a-, number of words: 2
+END DEBUGGING
+
+Sorry, there are no m's
+
+guesses left: 6
+DEBUGGING: words left : 2
+guessed so far : [e, a, o, s, r, t, g, m]
+current word : -ater-a-
+Your guess? n
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -ater-a-, number of words: 1
+pattern: -aterna-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no n's
+
+guesses left: 5
+DEBUGGING: words left : 1
+guessed so far : [e, a, o, s, r, t, g, m, n]
+current word : -ater-a-
+Your guess? d
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -ater-a-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no d's
+
+guesses left: 4
+DEBUGGING: words left : 1
+guessed so far : [e, a, o, s, r, t, g, m, n, d]
+current word : -ater-a-
+Your guess? b
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -ater-a-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no b's
+
+guesses left: 3
+DEBUGGING: words left : 1
+guessed so far : [e, a, o, s, r, t, g, m, n, d, b]
+current word : -ater-a-
+Your guess? h
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -ater-a-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no h's
+
+guesses left: 2
+DEBUGGING: words left : 1
+guessed so far : [e, a, o, s, r, t, g, m, n, d, b, h]
+current word : -ater-a-
+Your guess? l
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -ater-a-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no l's
+
+guesses left: 1
+DEBUGGING: words left : 1
+guessed so far : [e, a, o, s, r, t, g, m, n, d, b, h, l]
+current word : -ater-a-
+Your guess? f
+
+DEBUGGING: Based on guess here are resulting patterns and number
+of words in each pattern: 
+pattern: -ater-a-, number of words: 1
+END DEBUGGING
+
+Sorry, there are no f's
+
+answer = waterway
+Sorry, you lose
+
+Another game? Enter y for another game, anything else to quit: n
